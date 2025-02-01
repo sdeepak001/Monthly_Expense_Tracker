@@ -28,8 +28,7 @@ pip install tabulate
 Clone the repository or download the Python file (expense_tracker.py) to your local machine.
 
 ```bash
-git clone https://github.com/sdeepak001/Monthly_Expense_Tracker.gitrepository-url
-```
+git clone https://github.com/sdeepak001/Personal_Expense_Tracker.git
 
 ### step 2: Run the Python Script
 The Run the following command:
