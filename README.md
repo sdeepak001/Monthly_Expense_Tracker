@@ -51,6 +51,27 @@ The program will display a menu with the following options:
 
 Choose an option by entering the corresponding number (1-6). The program will guide you through each option with prompts.
 
+## Code Structure
+### Classes
+1. Expense: Manages the user's expense records.
+    - __init__(): Initializes the expense list and monthly budget.
+    - __validate_date(): Validates the date format (yyyy-mm-dd).
+    - __add_expense(): Adds a new expense to the list.
+    - __view_expense(): Displays the list of all expenses.
+    - __add_track_expense(): Prompts the user to input and set the monthly expense budget.
+    - __calculate_total_expense(): Calculates the total amount of expenses.   
+    - __track_expense(): Tracks the user's current expenses and compares them with the budget.
+    - __save_expense(): Saves the expense data to a file.
+    - __load_expense(): Loads expenses from a file into the program.
+    - __exit(): Exits the program.
+
+    - manage_expense(): Handles user input and manages different operations based on the menu choice.
+    - menu_expense(): Displays the main menu and handles user input for menu selection.
+
+### Methods
+    - signal_handler(): Handles the exit signal and ensures the program exits cleanly.
+    - clear_console(): Clears the console based on the operating system (Windows or Unix).
+
 #### Example Workflow:
 1. Add some expenses with their details (date, category, amount, and description).
 2. View the expenses to check your entries.
